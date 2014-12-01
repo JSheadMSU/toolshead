@@ -1,0 +1,23 @@
+﻿#header {text-align: center;
+}
+.navbar ul li {display: inline-block;
+		 	   font-size: 24px;
+		 	   font-family: Gotham, Helvetica Neue, sans-serif;
+		 	   padding: 10px;
+		 	   color: #2a7509;
+			   margin-right: -3.75px
+}	
+.navbar ul {text-align: center;
+		 	margin-top: -5px;
+}
+.navbar a:link {color: #2a7509;
+}
+.navbar ul a:hover li {color: #ffffff;				    
+					   background-color: #2a7509;
+}
+.navbar a:visited li {color: #97198B
+					  text-decoration: none;					  
+}
+.navbar #currentpage {color: #ffffff;
+					 background-color: #2a7509;
+}
