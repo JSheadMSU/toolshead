@@ -1,0 +1,45 @@
+﻿body {background-color: #011631;
+}
+
+#header{
+    width:100%;
+    text-align:center;
+}
+#header img{
+    display:inline-block;
+    height:200px;
+	width: 100%;
+    margin: 0 auto;
+}
+#navbar ul {text-align: center;
+			margin: 5px;
+
+}
+#navbar #portfolio, #navbar #resume, #navbar #academic, #navbar #contact {border: 2px solid #;
+					padding: 15px;					
+					margin-left: -13.5px; 
+}
+#navbar li {display:inline-block;
+            font-size: 20px;
+		 	font-family: Gotham, Helvetica Neue, sans-serif;
+		 	color: #2a7509;
+			padding: 5px;
+}
+#navbar a:link {color: #ffffff;
+				text-decoration: none;
+}
+#navbar a:hover {color: #df0003;				    
+					background-color: #ffffff;
+					padding: 10px;
+}
+#navbar a:visited {color: #df0003;
+}
+#body a#resume {color: #df0003;
+				  background-color: #ffffff;
+				  padding: 15px;
+
+}
+.h3 {font-family: gentium-book-basic;
+	 font-size: 30px;
+	 
+	 
