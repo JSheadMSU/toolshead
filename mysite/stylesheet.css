@@ -1,45 +1,46 @@
-﻿body {background-color: #011631;
-}
-
-#header{
-    width:100%;
-    text-align:center;
-}
-#header img{
+﻿#header img{
     display:inline-block;
-    height:200px;
 	width: 100%;
     margin: 0 auto;
+}					 
+#navbar {padding: 40px;
+  box-shadow: 0 125px 60px -50px #2fbefa inset;
+  text-align: center;
+  margin-top: 5px;
 }
-#navbar ul {text-align: center;
-			margin: 5px;
+#navbar ul { margin-top: -8px;
+}
 
+#navbar #portfolio, #navbar #resume, #navbar #academic, #navbar #contact {					
+					margin-left: -10px;
+					padding: 100px;
 }
-#navbar #portfolio, #navbar #resume, #navbar #academic, #navbar #contact {border: 2px solid #;
-					padding: 15px;					
-					margin-left: -13.5px; 
+#navbar li {display: inline;
+			font-size: 24px;
+		 	font-family: Gotham, Helvetica, sans-serif;
 }
-#navbar li {display:inline-block;
-            font-size: 20px;
-		 	font-family: Gotham, Helvetica Neue, sans-serif;
-		 	color: #2a7509;
-			padding: 5px;
-}
-#navbar a:link {color: #ffffff;
+#navbar a:link {color: #000000;
 				text-decoration: none;
 }
-#navbar a:hover {color: #df0003;				    
-					background-color: #ffffff;
-					padding: 10px;
+#navbar a:hover {color: #ffffff;
 }
 #navbar a:visited {color: #df0003;
 }
-#body a#resume {color: #df0003;
-				  background-color: #ffffff;
-				  padding: 15px;
-
+#body a#resume {color: #ffffff;
 }
-.h3 {font-family: gentium-book-basic;
-	 font-size: 30px;
-	 
+#slider_content1, #slider_content2, #slider_content3, #slider_content4, #slider_content5, #slider_content6, #slider_content7, #slider_content8, #slider_content9
+{
+        line-height: 15px;
+        font-family: 'EB Garamond', sans-serif;
+        width:auto;
+        position:absolute;
+        bottom:0;
+        right:0;
+        display:none;
+        z-index:11;
+}
+#footer {border-top: 5px solid;
+		 padding-top: 10px;
+}
+
 	 
