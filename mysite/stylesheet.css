@@ -4,13 +4,9 @@
     margin: 0 auto;
 }					 
 #navbar {padding: 40px;
-  box-shadow: 0 125px 60px -50px #2fbefa inset;
+  box-shadow: 0 75px 0px 0px #2fbefa inset;
   text-align: center;
-  margin-top: 5px;
 }
-#navbar ul { margin-top: -8px;
-}
-
 #navbar #portfolio, #navbar #resume, #navbar #academic, #navbar #contact {					
 					margin-left: -10px;
 					padding: 100px;
@@ -19,6 +15,7 @@
 			font-size: 24px;
 		 	font-family: Gotham, Helvetica, sans-serif;
 }
+
 #navbar a:link {color: #000000;
 				text-decoration: none;
 }
