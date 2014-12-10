@@ -1,0 +1,45 @@
+/*!
+ * Start Bootstrap - Full Slider HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+html,
+body {
+    height: 100%;
+}
+
+.carousel,
+.item,
+.active {
+	width: 100%;
+	height: 100% 
+}
+#myCarousel {width: 100%;
+			 height: 741px;
+			 margin: auto;
+			 margin-top: 75px;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+/* Background images are set within the HTML using inline CSS, not here */
+
+.fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.carousel-caption p {color: #E8A600;
+					 text-shadow: -1.5px -1.5px #000, 1.5px -1.5px #000, -1.5px 1.5px #000, 1.5px 1.5px #000;
+					 font-family: Cambria, Times, serif;
+					 font-size: 34px;
+					 font-weight: bold;
+					 margin-bottom: 630px;
+}

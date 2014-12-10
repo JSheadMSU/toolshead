@@ -1,45 +1,166 @@
-﻿<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-<meta charset="utf-8">
-<title>Jonathan Shead - Home</title>
-<link href="stylesheet.css" rel="stylesheet" type="text/css" />
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Jonathan Shead-Home</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/full-slider.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+<link href="style.css" rel="stylesheet" type="text/css"/>
 </head>
+
 <body>
-<div id="header">
-	<img src="images\header.jpg"/>
-</div>
-<div id="navbar">
-    <ul>
-      <li><a href="portfolio.html" id="portfolio">Portfolio</a></li>      
-       <li><a href="resume.html" id="resume">Resume</a></li>
-       <li><a href="academic.html" id="academic">Academic History</a></li>
-       <li><a href="contact.html" id="contact">Contact Me</a></li>
-    </ul>
-</div>
-<div id="slides">
-        <img src="images/60th Anniversary.jpg"/> 
-        <img src="images/Rush Week.jpg"/> 
-        <img src="images/siblings.jpg"/>
-        <img src="images/philanthropy.jpg"/> 
-        <img src="images/friends.jpg"/> 
-        <img src="images/grandpa.jpg"/>
-        <img src="images/greekweek.jpg"/>
-        <img src="images/bigsis.jpg"/>
-        <img src="images/givingtree.jpg"/>
-        </div>
+<section id="header">
+	<a href="index.html">
+    <img src="images/header.jpg" alt="Header"/>							    
+    </a>
 </section>
-<div id="footer"> <img src="../../../Pictures/spartan helmet.jpg" class="left"/>
-<ul>
-	<p>Jonathan Shead</p>
-    <p>Undergraduate Professional Writing Major</p>
-    <p>Michigan State University</p>
-    <p>East Lansing, Michgain</p>
- </ul>
-<img src="../../../Pictures/spartan helmet2.jpg" class="right"/>
+<nav id="menu">
+	<ul>
+    	<li><a href="portfolio.html" id="portfolio">Portfolio</a></li>
+        <li><a href="resume.html" id="resume">Resume</a></li>
+        <li><a href="academic.html" id="adacemic">Academic History</a></li>
+        <li><a href="contact.html" id="contact">Contact Me</a></li>
+     </ul>
+</nav>
+<div class="container">
+     <!-- Full Page Image Background Carousel Header -->
+    <header id="myCarousel" class="carousel slide">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+            <li data-target="#myCarousel" data-slide-to="4"></li>
+            <li data-target="#myCarousel" data-slide-to="5"></li>
+            <li data-target="#myCarousel" data-slide-to="6"></li>
+            <li data-target="#myCarousel" data-slide-to="7"></li>
+            <li data-target="#myCarousel" data-slide-to="8"></li>
+        </ol>
+
+        <!-- Wrapper for Slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <!-- Set the first background image using inline CSS below. -->
+              <div class="fill" style="background-image:url('images/givingtree2.jpg');"></div>
+                <div class="carousel-caption">
+                    <p>Phi Kappa Psi's 2nd Annual Giving Tree</p>
+                </div>
+            </div>
+            <div class="item">
+                <!-- Set the second background image using inline CSS below. -->
+              <div class="fill" style="background-image:url('images/anniversary.jpg');"></div>
+                <div class="carousel-caption">
+                    <p>60th Anniversary of Phi Kappa Psi Michigan Beta</p>
+                </div>
+            </div>
+            <div class="item">
+                <!-- Set the second background image using inline CSS below. -->
+              <div class="fill" style="background-image:url('images/friends.jpg');"></div>
+                <div class="carousel-caption">
+                    <p>Friends</p>
+                </div>
+            </div>
+            <div class="item">
+                <!-- Set the third background image using inline CSS below. -->
+              <div class="fill" style="background-image:url('images/givingtree.jpg');"></div>
+                <div class="carousel-caption">
+                    <p>Phi Kappa Psi's 1st Annual Giving Tree</p>
+                </div>
+            </div>
+            <div class="item">
+                <!-- Set the second background image using inline CSS below. -->
+              <div class="fill" style="background-image:url('images/siblings.jpg');"></div>
+                <div class="carousel-caption">
+                    <p>Family</p>
+                </div>
+            </div>
+<div class="item">
+        <!-- Set the second background image using inline CSS below. -->
+  <div class="fill" style="background-image:url('images/greekweek.jpg');"></div>
+                <div class="carousel-caption">
+                    <p>Greek Week 2014</p>
+                </div>
 </div>
+            <div class="item">
+                <!-- Set the second background image using inline CSS below. -->
+              <div class="fill" style="background-image:url('images/rushweek.jpg');"></div>
+                <div class="carousel-caption">
+                    <p>Rush Phi Kappa Psi</p>
+                </div>
+            </div>
+			<div class="item">
+        <!-- Set the second background image using inline CSS below. -->
+      	<div class="fill" style="background-image:url('images/philanthropy.jpg');"></div>
+                <div class="carousel-caption">
+                    <p>Phi Kappa Psi's Easter Egg Hunt</p>
+                </div>
+</div>
+<!-- Controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="icon-prev"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        	<span class="icon-next"></span>
+        </a>
+        
+    </header>
+
+    <!-- Page Content -->
+	<section class="aboutme">
+    	<h3><strong><em>Get To Know Me!</em></strong></h3> 
+        <p>Hello, and welcome to my website. My name is Jonathan Shead. I am currently a sophomore at Michigan State University majoring in professional writing with a focus in music studies. My whole life I've always known writing would be the career I chose to pursue. Similarly, growing up a child I was always immersed in music and the arts. From watching my brother shred on the drums to picking up a pair of sticks and learning how to play myself, I've always been intrigued and inspired by what music has to offer. Therefore I decided to combine my talent to write with my passion for music, so that someday I might have the chance to critique music for a major publication in the field. Writing for a major music publication is only a preliminary goal though. Moving forward in such a career I hope to one day publish my own magazine in the music field. And of course, with that, I strive to have my publication be one of the major magazines of its genre, and I wont stop working for it until I'm satisfied!</p>
+<p>Beyond my passion for music, I am also very interested in philanthropic and community involvement. Presently, I am the Philanthropy Chairman for my fraternity, Phi Kappa Psi, and I also work closely with the community service committee. Through these positions I hope not only to make a major impact in the Lansing community, but I hope to take the skills I've gained from such positions to further my career.</p>
+<p>Got questions? No problem, I'd be glad to answer them or just simply chat with you more. Just head on over to my contact page, fill out a request, and I'll return back to you as soon as I can!</p>
+</section>
+
+        
+        </div>
+
+        <!-- Footer -->
+<footer>
+	<img src="images/spartan helmet.jpg" alt="Spartan Helmet"/>
+    <p> &#0169; Jonathan Shead<br>
+        Michigan State University-College of Arts &amp; Letters</p>
+    <ul><span style="text-decoration: underline">External Links</span>
+    	<li><a href="https://www.facebook.com/jonathan.shead">Facebook</a></li>
+        <li><a href="https://twitter.com/Sheadwrites4U?cn=cGFzc3dvcmRfcmVzZXRfdjI%3D&refsrc=email">Twitter</a></li>
+        <li><a href="https://www.linkedin.com/pub/jonathan-shead/aa/174/633">LinkedIn</a></li>
+        <li><a href="contact.html">Contact Me</a></li>
+    </ul> 
+</footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Script to Activate the Carousel -->
+    <script>
+    $('.carousel').carousel({
+        interval: 5000 //changes the speed
+    })
+    </script>
 
 </body>
+
 </html>
-
-

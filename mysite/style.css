@@ -1,0 +1,191 @@
+@charset "utf-8";
+/* CSS Document */
+header img, #header img {display: inline-block;
+		width: 100%;
+		margin: 0 auto;
+}
+header a, #header a {width: 100%;
+					 margin: 0 auto;
+}
+#menu {padding: 30px;
+	   margin-top: 10px;
+	   box-shadow: 0 75px 40px -25px #003cac inset;
+	   text-align: center;
+}
+#menu ul {margin-top: -20px;
+}
+#menu li {display: inline;
+		  font-size: 24px;
+		  font-family: gotham, helvetica, sans-serif;
+		  padding: 80px;
+}
+#menu a:link, #menu a:visited {color: #E8A600;
+							   text-decoration: none;
+}
+#menu a:hover {color: #FFFFFF
+}
+.container {width: 95%;
+			height: auto;
+			margin: auto;
+			margin-top: 50px;
+			margin-bottom: 50px;
+}
+.resume {padding-top: 2px; padding-bottom: 2px;
+		 text-align: center;
+		 font-size: 36px;
+		 font-family: Cambria, Times, serif;
+		 margin-top: 5px; margin-bottom: 5px;
+		 
+}
+.academic {font-size: 36px;
+		 font-family: Cambria, Times, serif;
+}
+
+.aboutme {width: 90%;
+		  margin: auto;
+		  margin-top: 30px;
+}
+.aboutme h3 {font-family: Cambria, Times, serif;
+			 font-size: 48px;
+			 padding-bottom: 20px;
+			 text-align: center;
+}
+.aboutme p {padding-top: 10px; padding-bottom: 10px;
+}
+.container .welcome {text-align: center;
+					 font-family: Cambria, Times, serif;
+					 font-size: 20px;
+}
+#portfolio {text-align: center;
+			margin-left: 35px;
+}
+.container .writing, .container .web, .container .outreach {border: 2px solid;
+															width: 400px;
+															height: 900px;
+															float: left;
+															clear: right;
+															margin-left: 20px; margin-right: 20px; margin-top: 50px; margin-bottom: 100px;
+															padding-top: 15px;
+}
+.container .writing h1, .container .web h1, .container .outreach h1 {text-align: center;
+																	 font-family: Cambria, Times, Serif;
+																	 font-size: 36px;
+}
+.container .writing ul, .container .web ul, .container .outreach ul {list-style-type: none;
+																	 margin-left: -25px;
+}
+.container .writing a, .container .web a, .container .outreach a {text-decoration: none;
+																  font-family:Lucida Grande, Verdana, sans-serif;
+}
+.container .writing li, .container .web li, .container .outreach li {padding-bottom: 5px; padding-top: 5px;
+}
+.container .writing p, .container .web p, .container .outreach p {padding-right: 15px; padding-left: 15px;
+}
+
+.professional, .service {width: 600px;
+						 display: inline-flex;
+						 margin-left: 38px;
+}
+
+.professional ul {font-family: Cambria, Times, serif;
+							 	font-size: 22px;
+								margin-left: -50px;
+}
+.service ul {font-family: Cambria, Times, serif;
+			 font-size: 22px;
+			 margin-right: -50px;
+}
+body p {font-family: Cambria, Times, serif;
+   		font-size: 16px;
+}
+.download {margin-bottom: 50px;	margin-top: 50px; 
+		   float: right;
+		   clear: right;
+		   padding-right: 50px; 
+}
+.download img, .download a {width: 200px;
+			   				height: 200px;	
+							margin-left:24px;		   
+}
+#content {float: left;
+		  clear: both;
+}
+.history {margin-left: 15px;
+		  font-family: Cambria, Times, serif; 
+}
+.studies {margin: 15px;
+		  font-family: Cambria, Times, serif; 
+}
+#images {margin-top: -600px;
+		 float: right;
+		 clear: both;
+}
+.overlayA {width: 250px;
+		  height: 250px;
+		  display: block;
+		  padding: 20px;
+		  float: right;
+		  clear: both;
+		  margin-right: 500px;
+		  margin-top: -70px;
+		  position: relative;
+		  z-index: 10px;
+}
+.underneathA {width: 250px;
+		  height: 250px;
+		  display: block;
+		  padding: 20px;
+		  float: right;
+		  clear: both;
+		  margin-right: 300px;
+		  margin-top: -100px;
+}
+.overlayB {width: 250px;
+		  height: 250px;
+		  display: block;
+		  padding: 20px;
+		  float: right;
+		  clear: both;
+		  margin-top: -90px;
+		  margin-right: 110px;
+}
+section .message p {width: 650px;
+				  padding-right: 25px;
+				  padding-left: 25px;
+				  
+}
+section .message h2 {text-align: center;
+					 width: 650px;
+					 font-family: Cambria, Times, serif;
+}
+section .message {float:left;
+				  clear: right;
+}
+section .contactform {margin: auto;
+					  text-align: right;
+					  padding-right: 250px;
+}
+footer {display: inline-flex;
+		width: 100%;
+		margin: 0 auto;
+		border-top: 5px solid #003cac;
+		padding-top: 15px;
+}
+footer img {width: 200px;
+			height: 150px;
+}
+footer p {margin: 110px 0px 0px -25px;
+}
+footer ul {font-size: 20px;
+		   text-align: center;
+		   margin-right: 40px; margin-left: auto; margin-top: 35px;
+
+}
+footer li {display: block;
+		   font-size: 16px;
+}
+footer a:link, footer a:visited {text-decoration: none;
+								 color: #000000;
+}
+footer a:hover {color: #003cac;
+}
