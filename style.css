@@ -1,13 +1,19 @@
 body {
 	font-family: tahoma, Arial, sans-serif;
-	background-color:#000000;
-	color:#c0c0c0;
+	background-color:#18543b;
+	color:#ffffff;
 	}
-	
+header p {text-align: center;
+		  font-family: tahoma, ,Arial, sans-serif;
+		  font-size: 24px;
+}
 h1 {
 	font-size:32px;
-	color:#006600;
-	background-color:#222222;
+	color:#E30E12;
+	text-shadow: -1px -1px #fff, 1px -1px #fff, -1px 1px #fff, 1px 1px #fff;
+	text-align: center;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+	font-size: 36px;
 	}
 	
 h2 {
@@ -32,5 +38,30 @@ a {
 	}
 	
 a:hover {
-	color:#00ff00;
+	color:#e30e12;
 	}
+
+	
+	footer {display: inline-flex;
+		width: 100%;
+		margin: 0 auto;
+		border-top: 5px solid #fff;
+		padding-top: 15px;
+}
+footer {margin-top:50px;
+}
+footer p {margin-top: 100px;
+}
+footer ul {font-size: 20px;
+		   text-align: center;
+		   margin-right: 40px; margin-left: auto; margin-top: 35px;
+
+}
+footer li {display: block;
+		   font-size: 16px;
+}
+footer a:link, footer a:visited {text-decoration: none;
+								 color: #fff;
+}
+footer a:hover {color: #e30e12;
+}
