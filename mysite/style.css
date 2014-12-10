@@ -87,13 +87,27 @@ header a, #header a {width: 100%;
 						 margin-left: 38px;
 }
 
-.professional ul {font-family: Cambria, Times, serif;
-							 	font-size: 22px;
-								margin-left: -50px;
+.professional ul .subhead {font-family: Cambria, Times, serif;
+							 	font-size: 30px;
+								margin-left: -50px; text-align: center;
+			 text-decoration: underline;
+			
 }
-.service ul {font-family: Cambria, Times, serif;
-			 font-size: 22px;
+.footerhead {font-family: Cambria, Times, Serif;
+			 font-size: 20px;
+			 text-decoration: underline;
+}
+.service ul .subhead {font-family: Cambria, Times, serif;
+			 font-size: 30px;
 			 margin-right: -50px;
+			 text-align: center;
+			 text-decoration: underline;
+			 
+}
+.professional ul li, .service ul li {list-style-type: none;
+									 font-size: 18px;
+									 padding: 10px;
+									 
 }
 body p {font-family: Cambria, Times, serif;
    		font-size: 16px;
@@ -176,13 +190,13 @@ footer img {width: 200px;
 }
 footer p {margin: 110px 0px 0px -25px;
 }
-footer ul {font-size: 20px;
+footer ul {
 		   text-align: center;
 		   margin-right: 40px; margin-left: auto; margin-top: 35px;
 
 }
 footer li {display: block;
-		   font-size: 16px;
+		   font-size: 14px;
 }
 footer a:link, footer a:visited {text-decoration: none;
 								 color: #000000;
